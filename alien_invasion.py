@@ -16,13 +16,13 @@ def run_game():
 	
     screen =  pygame.display.set_mode(
 	(ai_settings.screen_width,ai_settings.screen_height))
-    pygame.display.set_caption("Alien Invasion")
+    pygame.display.set_caption("LOL Finals")
     #创建Play按钮
     play_button = Button(ai_settings,screen,"Play")
 
     #创建一艘飞船
     ship=Ship(ai_settings,screen)
-    bg_color = (230,230,230)
+    #bg_color = (230,230,230)
     bullets = Group()
     aliens = Group()
     #川建一个外星人

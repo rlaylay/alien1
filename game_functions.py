@@ -1,6 +1,6 @@
 import sys 
 import pygame
-from bullet import Bullet
+from bullet1 import Bullet
 from alien import Alien
 from time import sleep
 
